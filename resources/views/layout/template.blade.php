@@ -28,9 +28,13 @@
 		console.log('App is running')
 		$('#popovers-demo').popover();
 		$('#styled-finputs-example').pixelFileInput({ placeholder: 'Belum ada foto dipilih...' });
-		$("#jquery-select2-example").select2({
+		$("#tinggi_bdn").select2({
 			allowClear: true,
-			placeholder: "Select a State"
+			placeholder: "Pilih tinggi badan..."
+		});
+		$("#berat_bdn").select2({
+			allowClear: true,
+			placeholder: "Pilih berat badan..."
 		});
 	})
 	window.LanderApp.start(init);

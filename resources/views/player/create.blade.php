@@ -12,7 +12,7 @@
                     <label for="name" class="col-sm-2 control-label">Nama:</label>
                     <div class="col-sm-10">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Nama">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <p class="help-block text-danger">Example block-level help text here.</p>
                     </div>
                 </div> <!-- / .form-group -->
                 <div class="form-group">
@@ -32,7 +32,7 @@
                 <div class="form-group">
                         <label for="tinggi_bdn" class="col-sm-2 control-label">Tinggi Badan:</label>
                         <div class="col-sm-10">
-                            <select id="jquery-select2-example" name="tinggi_bdn" class="form-control">
+                            <select id="tinggi_bdn" name="tinggi_bdn" class="form-control">
                             @for ($i = 149; $i <= 180; $i++)
                                     <option></option> 
                                     <option value="{{$i}}">{{ $i }} cm</option>
@@ -44,7 +44,7 @@
                 <div class="form-group">
                         <label for="berat_bdn" class="col-sm-2 control-label">Berat Badan:</label>
                         <div class="col-sm-10">
-                            <select id="jquery-select2-example" name="berat_bdn" class="form-control">
+                            <select id="berat_bdn" name="berat_bdn" class="form-control">
                             @for ($i = 50; $i <= 80; $i++)
                                     <option></option> 
                                     <option value="{{$i}}">{{ $i }} kg</option>
